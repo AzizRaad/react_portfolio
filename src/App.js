@@ -55,32 +55,32 @@ function App() {
   const projects = [
     {
       id: 1,
-      title: 'Bakkah Hotel',
-      description: 'A full-stack e-commerce platform with React, Node.js, and MongoDB. Implemented user authentication, product catalog, shopping cart, and payment processing.',
-      technologies: ['PHP/Laravel', 'MySQL', 'HTML/CSS', 'JS', 'Tailwind CSS', 'Filament'],
-      image: bakkah_logo,
-      website: 'https://hotel.azizraad.com',
+      title: 'Tech Blog',
+      description: 'First project built, implemented user authentication, blog posts management, and comments system.',
+      technologies: ['PHP/Laravel', 'MySQL', 'HTML/CSS'],
+      image: blog_logo,
+      website: 'https://blog.azizraad.com',
     },
     {
       id: 2,
       title: 'Rakaya Library',
-      description: 'Designed and implemented a CI/CD pipeline using Jenkins, Docker, and Kubernetes for automated testing and deployment of microservices.',
+      description: 'Designed and implemented a library management system with user authentication, book borrowing with shopping cart and invoice system, and admin control panel.',
       technologies: ['PHP/Laravel', 'MySQL', 'HTML/CSS'],
       image: rakaya_logo,
       website: 'https://library.azizraad.com',
     },
     {
       id: 3,
-      title: 'Tech Blog',
-      description: 'Built a real-time chat application with WebSockets, featuring private messaging, group chats, and file sharing capabilities.',
-      technologies: ['PHP/Laravel', 'MySQL', 'HTML/CSS'],
-      image: blog_logo,
-      website: 'https://blog.azizraad.com',
+      title: 'Bakkah Hotel',
+      description: 'A full-stack platform for hotel management. Implemented user authentication, room booking, admin control panel for overview and all content management.',
+      technologies: ['PHP/Laravel', 'MySQL', 'HTML/CSS', 'JS', 'Tailwind CSS', 'Filament'],
+      image: bakkah_logo,
+      website: 'https://hotel.azizraad.com',
     },
     {
       id: 4,
       title: 'Employee Evaluation System',
-      description: 'Developed infrastructure as code solutions for automating cloud resource provisioning and configuration management.',
+      description: 'Developed HR evaluation system to help with performance review and employee assessment. Consisted of admin dashboard and control panel for managing evaluation forms and exporting them. In addition to dynamic hierarchical structure of employees. Used CI/CD for continuous integration and deployment of the system.',
       technologies: ['PHP/Laravel', 'MySQL', 'HTML/CSS', 'JS', 'Filament'],
       image: private_logo,
       website: 'https://azizraad.com',
@@ -88,8 +88,16 @@ function App() {
     {
       id: 5,
       title: 'CRM',
-      description: 'Developed infrastructure as code solutions for automating cloud resource provisioning and configuration management.',
+      description: 'Developed CRM system to help with customer relationship management. ',
       technologies: ['PHP/Laravel', 'MySQL', 'RESTAPI', 'Linux', 'Nginx', 'JS', 'HTML/CSS', 'Flutter'],
+      image: private_logo,
+      website: 'https://azizraad.com',
+    },
+    {
+      id: 6,
+      title: 'JCA - Jimny Club Application',
+      description: 'Developed Jimny Club application as a platform to gather all owners of Suzuki-Jimny cars in Saudi Arabia. The application serves as events managemnt system & communication platform between owners from different locations in addition to providing support by management team in Suzuki. ',
+      technologies: ['PHP/Laravel', 'Filament', 'MySQL', 'RESTAPI', 'Nginx', 'Flutter'],
       image: private_logo,
       website: 'https://azizraad.com',
     },
@@ -190,16 +198,19 @@ function App() {
                     <li>PHP/Laravel</li>
                     <li>Python</li>
                     <li>RESTful APIs</li>
+                    <li>System Design</li>
+                    <li>Java</li>
                   </ul>
                 </div>
 
                 <div className="skill-category">
                   <h4>DevOps</h4>
                   <ul>
+                    <li>Linux</li>
                     <li>CI/CD Pipelines</li>
                     <li>AWS</li>
                     <li>Docker</li>
-                    <li>Linux</li>
+                    <li>Nginx</li>
                   </ul>
                 </div>
 
